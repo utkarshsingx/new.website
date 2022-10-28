@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  
+  line-height: 2.3em;
+  background: lightblue url("../Img/lum3n--RBuQ2PK_L8-unsplash.jpg") no-repeat
+    fixed center;
+  /* background-size: cover; */
+  padding-bottom: 50px;
+}
+
+.our-content{
+    padding-top: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.active {
+    background-color: #f678b3;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.btn{
+    background-color: #f3bbd5;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+
+}
+
+.btn :hover{
+    background-color: #fcf1f6;
+} 
+
